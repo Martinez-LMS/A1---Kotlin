@@ -10,6 +10,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.example.inventory.ui.home.HomeDestination
 import com.example.inventory.ui.home.HomeScreen
+
 import com.example.inventory.ui.item.ItemDetailsDestination
 import com.example.inventory.ui.item.ItemDetailsScreen
 import com.example.inventory.ui.item.ItemEditDestination
@@ -17,9 +18,7 @@ import com.example.inventory.ui.item.ItemEditScreen
 import com.example.inventory.ui.item.ItemEntryDestination
 import com.example.inventory.ui.item.ItemEntryScreen
 
-/**
- * Provides Navigation graph for the application.
- */
+
 @Composable
 fun InventoryNavHost(
     navController: NavHostController,
